@@ -1,0 +1,27 @@
+# 忽略常见的模型文件格式
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.pb
+*.caffemodel
+*.bin
+*.safetensors
+*.keras
+*.keras
+*.onnx
+
+# 忽略模型目录
+models/
+checkpoints/
+weights/
+*.ckpt
+*.pkl
+*.joblib
+
+# 忽略大文件
+*.zip
+*.tar.gz
+*.7z
