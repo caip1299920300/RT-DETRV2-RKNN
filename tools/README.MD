@@ -3,7 +3,7 @@
 # 创建指定Python版本的环境
 uv venv --python 3.11
 # 或者直接指定Python解释器路径（如果3.11已安装）
-uv venv --python python3.11`
+uv venv --python python3.11
 uv pip install rknn-toolkit2 -i https://pypi.mirrors.ustc.edu.cn/simple/
 uv pip install -r requirements.txt -i https://pypi.mirrors.ustc.edu.cn/simple/
 ```
